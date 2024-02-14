@@ -21,7 +21,7 @@ defineProps({
 			@click="onClickFavorite"
 		/>
 
-		<img :src="imageUrl" alt="boots" />
+		<img :src="imageUrl" alt="" class="" />
 
 		<p class="mt-2">{{ title }}</p>
 
